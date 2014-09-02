@@ -7,7 +7,7 @@ import PIL.Image
 import StringIO
 from django.http import HttpResponse
 from django.template import RequestContext, loader
- 
+  
 
 def graph(request):#comment adfa
     x = [1,2,3,4,5,6]
